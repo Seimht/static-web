@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seim Trimms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <img src="images/IMG_9342.png" alt="Salon Logo" style="width: 300px;">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="booking.html">Book an Appointment</a></li>
+        </ul>
+    </nav>
+</header>
+<section>
+    <h1>Book an Appointment</h1>
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="service">Choose a service:</label><br>
+        <select id="service" name="service" required>
+            <option value="mens_haircut">Men's Haircut</option>
+            <option value="womens_haircut">Women's Haircut</option>
+            <option value="kids_haircut">Kids' Haircut</option>
+        </select><br><br>
+
+        <label for="date">Choose a date:</label><br>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="time">Choose a time:</label><br>
+        <input type="time" id="time" name="time" required><br><br>
+
+        <button type="submit">Book Appointment</button>
+    </form>
+</section>
+<footer>
+    <p>&copy; 2024 Seim Trimms LLC</p>
+</footer>
+</body>
+</html>
