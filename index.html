@@ -7,43 +7,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-    <img src="images/IMG_9342.png" alt="Salon Logo" style="width: 300px;">
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="booking.html">Book an Appointment</a></li>
-        </ul>
-    </nav>
-</header>
-<section>
-    <h1>Book an Appointment</h1>
-    <form action="#" method="post">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
 
-        <label for="service">Choose a service:</label><br>
-        <select id="service" name="service" required>
-            <option value="mens_haircut">Men's Haircut</option>
-            <option value="womens_haircut">Women's Haircut</option>
-            <option value="kids_haircut">Kids' Haircut</option>
-        </select><br><br>
+<nav>
+    <div class="logo">
+        <img src="images/IMG_9342.png" alt="Seim Trimms Logo">
+    </div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#booking">Book Now</a></li>
+    </ul>
+</nav>
 
-        <label for="date">Choose a date:</label><br>
-        <input type="date" id="date" name="date" required><br><br>
 
-        <label for="time">Choose a time:</label><br>
-        <input type="time" id="time" name="time" required><br><br>
+<section id="about" class="about-us">
+    <div class="about-container">
+        <h2>About Us</h2>
+        <p>Seim Trimms is committed to delivering premium haircut services for both men and women. Our expert stylists ensure each client leaves looking sharp and feeling confident. With years of experience and a passion for precision, we specialize in a range of styles from classic cuts to the latest trends.</p>
 
-        <button type="submit">Book Appointment</button>
-    </form>
+        <div class="about-content">
+            <img src="images/image3.jpeg" alt="Barbershop Image">
+            <div class="about-text">
+                <h3>Our Story</h3>
+                <p>At Seim Trimms, we believe that a great haircut is more than just a service; it's an experience. We started with the goal of making high-quality hair services accessible to everyone. Our team takes pride in ensuring each appointment is a personalized experience, tailored to the unique preferences and needs of every client.</p>
+            </div>
+        </div>
+    </div>
 </section>
-<footer>
-    <p>&copy; 2024 Seim Trimms LLC</p>
-</footer>
+
 </body>
 </html>
